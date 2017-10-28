@@ -11,8 +11,6 @@ import AVFoundation
 
 class VideoViewController: UIViewController, AVCaptureFileOutputRecordingDelegate {
     
-   
-    
     
     let directoryModel = DirectoryModel.sharedInstance
     let connectivityManager = ConnectivityManager.sharedInstance
@@ -278,30 +276,30 @@ class VideoViewController: UIViewController, AVCaptureFileOutputRecordingDelegat
         print("hello");
     }
     
-//    // Informs the delegate when the output has started writing to a file
-//    func capture(_: AVCaptureFileOutput!, didStartRecordingToOutputFileAt: URL!, fromConnections: [Any]!) {
-//        print("didStartRecordingToOutputFileAt: \(didStartRecordingToOutputFileAt!)")
-//    }
-//    
-//    // Informs the delegate when the output will stop writing new samples to a file
-//    func capture(_: AVCaptureFileOutput!, willFinishRecordingToOutputFileAt: URL!, fromConnections: [Any]!, error: Error!) {
-//        print("willFinishRecordingToOutputFileAt: \(willFinishRecordingToOutputFileAt!)")
-//    }
-//    
-//    // Required. Informs the delegate when all pending data has been written to an output file
-//    func capture(_: AVCaptureFileOutput!, didFinishRecordingToOutputFileAt: URL!, fromConnections: [Any]!, error: Error!) {
-//        print("didFinishRecordingToOutputFileAt: \(didFinishRecordingToOutputFileAt!)")
-//    }
-//    
-//    // Called whenever the output is recording to a file and successfully pauses the recording at the request of a client
-//    func capture(_: AVCaptureFileOutput!, didPauseRecordingToOutputFileAt: URL!, fromConnections: [Any]!) {
-//        print("didPauseRecordingToOutputFileAt: \(didPauseRecordingToOutputFileAt!)")
-//    }
-//    
-//    // Called whenever the output, at the request of the client, successfully resumes a file recording that was paused
-//    func capture(_: AVCaptureFileOutput!, didResumeRecordingToOutputFileAt: URL!, fromConnections: [Any]!) {
-//        print("didResumeRecordingToOutputFileAt: \(didResumeRecordingToOutputFileAt!)")
-//    }
+    // Informs the delegate when the output has started writing to a file
+    func capture(_: AVCaptureFileOutput!, didStartRecordingToOutputFileAt: URL!, fromConnections: [Any]!) {
+        print("didStartRecordingToOutputFileAt: \(didStartRecordingToOutputFileAt!)")
+    }
+
+    // Informs the delegate when the output will stop writing new samples to a file
+    func capture(_: AVCaptureFileOutput!, willFinishRecordingToOutputFileAt: URL!, fromConnections: [Any]!, error: Error!) {
+        print("willFinishRecordingToOutputFileAt: \(willFinishRecordingToOutputFileAt!)")
+    }
+    
+    // Required. Informs the delegate when all pending data has been written to an output file
+    func capture(_: AVCaptureFileOutput!, didFinishRecordingToOutputFileAt: URL!, fromConnections: [Any]!, error: Error!) {
+        print("didFinishRecordingToOutputFileAt: \(didFinishRecordingToOutputFileAt!)")
+    }
+    
+    // Called whenever the output is recording to a file and successfully pauses the recording at the request of a client
+    func capture(_: AVCaptureFileOutput!, didPauseRecordingToOutputFileAt: URL!, fromConnections: [Any]!) {
+        print("didPauseRecordingToOutputFileAt: \(didPauseRecordingToOutputFileAt!)")
+    }
+    
+    // Called whenever the output, at the request of the client, successfully resumes a file recording that was paused
+    func capture(_: AVCaptureFileOutput!, didResumeRecordingToOutputFileAt: URL!, fromConnections: [Any]!) {
+        print("didResumeRecordingToOutputFileAt: \(didResumeRecordingToOutputFileAt!)")
+    }
     
     // MARK: - Timer
     
