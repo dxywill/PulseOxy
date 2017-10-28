@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E06D4B71EA6BC3400DF182B /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E06D4B61EA6BC3400DF182B /* ConnectViewController.swift */; };
+		5E06D4B91EA6CABD00DF182B /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E06D4B81EA6CABD00DF182B /* ConnectivityManager.swift */; };
+		5E5A476B1E805B99001D422B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A476A1E805B99001D422B /* AppDelegate.swift */; };
+		5E5A476D1E805B99001D422B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A476C1E805B99001D422B /* ViewController.swift */; };
+		5E5A47701E805B99001D422B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A476E1E805B99001D422B /* Main.storyboard */; };
+		5E5A47721E805B99001D422B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A47711E805B99001D422B /* Assets.xcassets */; };
+		5E5A47751E805B99001D422B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A47731E805B99001D422B /* LaunchScreen.storyboard */; };
+		5E5A47801E805B99001D422B /* CardiacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A477F1E805B99001D422B /* CardiacTests.swift */; };
+		5E5A478B1E805B99001D422B /* CardiacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A478A1E805B99001D422B /* CardiacUITests.swift */; };
+		5EACF2F01EAAC79800A6C101 /* BioHarness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EACF2EF1EAAC79800A6C101 /* BioHarness.swift */; };
+		5ECC83641E81C40B009C2A3E /* StartStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC83631E81C40B009C2A3E /* StartStudyViewController.swift */; };
+		5ED3FB211E97DD2600E39132 /* TrialEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3FB201E97DD2600E39132 /* TrialEndViewController.swift */; };
+		5ED7D9F21EB3A2E00044797F /* EmpaLink-ios-0.7-full.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED7D9F11EB3A2E00044797F /* EmpaLink-ios-0.7-full.framework */; };
+		5ED7D9F61EB3A2FF0044797F /* E4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7D9F31EB3A2FF0044797F /* E4.swift */; };
+		5ED7D9F71EB3A2FF0044797F /* E4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7D9F41EB3A2FF0044797F /* E4Controller.swift */; };
+		5EE2B8241E8C1F6F0022CFDF /* DirectoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2B8231E8C1F6F0022CFDF /* DirectoryModel.swift */; };
+		5EF97C431EB395CA00B3E784 /* BioHarnessDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */; };
+		7B6036221E97F5EB002D8B0D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6036211E97F5EB002D8B0D /* VideoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E5A477C1E805B99001D422B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5A475F1E805B99001D422B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5A47661E805B99001D422B;
+			remoteInfo = Cardiac;
+		};
+		5E5A47871E805B99001D422B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5A475F1E805B99001D422B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5A47661E805B99001D422B;
+			remoteInfo = Cardiac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E06D4B61EA6BC3400DF182B /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		5E06D4B81EA6CABD00DF182B /* ConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		5E5A47671E805B99001D422B /* Cardiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A476A1E805B99001D422B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E5A476C1E805B99001D422B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E5A476F1E805B99001D422B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E5A47711E805B99001D422B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E5A47741E805B99001D422B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E5A47761E805B99001D422B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5A477B1E805B99001D422B /* CardiacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardiacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A477F1E805B99001D422B /* CardiacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiacTests.swift; sourceTree = "<group>"; };
+		5E5A47811E805B99001D422B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5A47861E805B99001D422B /* CardiacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardiacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A478A1E805B99001D422B /* CardiacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiacUITests.swift; sourceTree = "<group>"; };
+		5E5A478C1E805B99001D422B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EACF2EF1EAAC79800A6C101 /* BioHarness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioHarness.swift; sourceTree = "<group>"; };
+		5ECC83631E81C40B009C2A3E /* StartStudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartStudyViewController.swift; sourceTree = "<group>"; };
+		5ED3FB201E97DD2600E39132 /* TrialEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrialEndViewController.swift; sourceTree = "<group>"; };
+		5ED7D9F11EB3A2E00044797F /* EmpaLink-ios-0.7-full.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "EmpaLink-ios-0.7-full.framework"; sourceTree = "<group>"; };
+		5ED7D9F31EB3A2FF0044797F /* E4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E4.swift; sourceTree = "<group>"; };
+		5ED7D9F41EB3A2FF0044797F /* E4Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E4Controller.swift; sourceTree = "<group>"; };
+		5ED7D9F51EB3A2FF0044797F /* EmpaticaAPIDemo_iOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EmpaticaAPIDemo_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EE2B8231E8C1F6F0022CFDF /* DirectoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryModel.swift; sourceTree = "<group>"; };
+		5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioHarnessDevice.swift; sourceTree = "<group>"; };
+		7B6036211E97F5EB002D8B0D /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5A47641E805B99001D422B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED7D9F21EB3A2E00044797F /* EmpaLink-ios-0.7-full.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A47781E805B99001D422B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A47831E805B99001D422B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5A475E1E805B99001D422B = {
+			isa = PBXGroup;
+			children = (
+				5E5A47691E805B99001D422B /* Cardiac */,
+				5E5A477E1E805B99001D422B /* CardiacTests */,
+				5E5A47891E805B99001D422B /* CardiacUITests */,
+				5E5A47681E805B99001D422B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5A47681E805B99001D422B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A47671E805B99001D422B /* Cardiac.app */,
+				5E5A477B1E805B99001D422B /* CardiacTests.xctest */,
+				5E5A47861E805B99001D422B /* CardiacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5A47691E805B99001D422B /* Cardiac */ = {
+			isa = PBXGroup;
+			children = (
+				5ED7D9F91EB3A3890044797F /* BioHarness */,
+				5ED7D9F81EB3A3840044797F /* E4 */,
+				5E5A476A1E805B99001D422B /* AppDelegate.swift */,
+				5E5A476C1E805B99001D422B /* ViewController.swift */,
+				7B6036211E97F5EB002D8B0D /* VideoViewController.swift */,
+				5E5A476E1E805B99001D422B /* Main.storyboard */,
+				5EE2B8231E8C1F6F0022CFDF /* DirectoryModel.swift */,
+				5ECC83631E81C40B009C2A3E /* StartStudyViewController.swift */,
+				5E06D4B81EA6CABD00DF182B /* ConnectivityManager.swift */,
+				5E06D4B61EA6BC3400DF182B /* ConnectViewController.swift */,
+				5ED3FB201E97DD2600E39132 /* TrialEndViewController.swift */,
+				5E5A47711E805B99001D422B /* Assets.xcassets */,
+				5E5A47731E805B99001D422B /* LaunchScreen.storyboard */,
+				5E5A47761E805B99001D422B /* Info.plist */,
+				5ED7D9F01EB3A2C30044797F /* Frameworks */,
+			);
+			path = Cardiac;
+			sourceTree = "<group>";
+		};
+		5E5A477E1E805B99001D422B /* CardiacTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A477F1E805B99001D422B /* CardiacTests.swift */,
+				5E5A47811E805B99001D422B /* Info.plist */,
+			);
+			path = CardiacTests;
+			sourceTree = "<group>";
+		};
+		5E5A47891E805B99001D422B /* CardiacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A478A1E805B99001D422B /* CardiacUITests.swift */,
+				5E5A478C1E805B99001D422B /* Info.plist */,
+			);
+			path = CardiacUITests;
+			sourceTree = "<group>";
+		};
+		5ED7D9F01EB3A2C30044797F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED7D9F11EB3A2E00044797F /* EmpaLink-ios-0.7-full.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5ED7D9F81EB3A3840044797F /* E4 */ = {
+			isa = PBXGroup;
+			children = (
+				5ED7D9F31EB3A2FF0044797F /* E4.swift */,
+				5ED7D9F41EB3A2FF0044797F /* E4Controller.swift */,
+				5ED7D9F51EB3A2FF0044797F /* EmpaticaAPIDemo_iOS-Bridging-Header.h */,
+			);
+			name = E4;
+			sourceTree = "<group>";
+		};
+		5ED7D9F91EB3A3890044797F /* BioHarness */ = {
+			isa = PBXGroup;
+			children = (
+				5EACF2EF1EAAC79800A6C101 /* BioHarness.swift */,
+				5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */,
+			);
+			name = BioHarness;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5A47661E805B99001D422B /* Cardiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A478F1E805B99001D422B /* Build configuration list for PBXNativeTarget "Cardiac" */;
+			buildPhases = (
+				5E5A47631E805B99001D422B /* Sources */,
+				5E5A47641E805B99001D422B /* Frameworks */,
+				5E5A47651E805B99001D422B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardiac;
+			productName = Cardiac;
+			productReference = 5E5A47671E805B99001D422B /* Cardiac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E5A477A1E805B99001D422B /* CardiacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A47921E805B99001D422B /* Build configuration list for PBXNativeTarget "CardiacTests" */;
+			buildPhases = (
+				5E5A47771E805B99001D422B /* Sources */,
+				5E5A47781E805B99001D422B /* Frameworks */,
+				5E5A47791E805B99001D422B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5A477D1E805B99001D422B /* PBXTargetDependency */,
+			);
+			name = CardiacTests;
+			productName = CardiacTests;
+			productReference = 5E5A477B1E805B99001D422B /* CardiacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E5A47851E805B99001D422B /* CardiacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A47951E805B99001D422B /* Build configuration list for PBXNativeTarget "CardiacUITests" */;
+			buildPhases = (
+				5E5A47821E805B99001D422B /* Sources */,
+				5E5A47831E805B99001D422B /* Frameworks */,
+				5E5A47841E805B99001D422B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5A47881E805B99001D422B /* PBXTargetDependency */,
+			);
+			name = CardiacUITests;
+			productName = CardiacUITests;
+			productReference = 5E5A47861E805B99001D422B /* CardiacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5A475F1E805B99001D422B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eileen Guo";
+				TargetAttributes = {
+					5E5A47661E805B99001D422B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C77MWZ97U4;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					5E5A477A1E805B99001D422B = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E5A47661E805B99001D422B;
+					};
+					5E5A47851E805B99001D422B = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E5A47661E805B99001D422B;
+					};
+				};
+			};
+			buildConfigurationList = 5E5A47621E805B99001D422B /* Build configuration list for PBXProject "Cardiac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E5A475E1E805B99001D422B;
+			productRefGroup = 5E5A47681E805B99001D422B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5A47661E805B99001D422B /* Cardiac */,
+				5E5A477A1E805B99001D422B /* CardiacTests */,
+				5E5A47851E805B99001D422B /* CardiacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E5A47651E805B99001D422B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A47751E805B99001D422B /* LaunchScreen.storyboard in Resources */,
+				5E5A47721E805B99001D422B /* Assets.xcassets in Resources */,
+				5E5A47701E805B99001D422B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A47791E805B99001D422B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A47841E805B99001D422B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5A47631E805B99001D422B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED3FB211E97DD2600E39132 /* TrialEndViewController.swift in Sources */,
+				7B6036221E97F5EB002D8B0D /* VideoViewController.swift in Sources */,
+				5EACF2F01EAAC79800A6C101 /* BioHarness.swift in Sources */,
+				5ED7D9F61EB3A2FF0044797F /* E4.swift in Sources */,
+				5ECC83641E81C40B009C2A3E /* StartStudyViewController.swift in Sources */,
+				5ED7D9F71EB3A2FF0044797F /* E4Controller.swift in Sources */,
+				5EE2B8241E8C1F6F0022CFDF /* DirectoryModel.swift in Sources */,
+				5E06D4B71EA6BC3400DF182B /* ConnectViewController.swift in Sources */,
+				5E5A476D1E805B99001D422B /* ViewController.swift in Sources */,
+				5E06D4B91EA6CABD00DF182B /* ConnectivityManager.swift in Sources */,
+				5E5A476B1E805B99001D422B /* AppDelegate.swift in Sources */,
+				5EF97C431EB395CA00B3E784 /* BioHarnessDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A47771E805B99001D422B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A47801E805B99001D422B /* CardiacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A47821E805B99001D422B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A478B1E805B99001D422B /* CardiacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E5A477D1E805B99001D422B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5A47661E805B99001D422B /* Cardiac */;
+			targetProxy = 5E5A477C1E805B99001D422B /* PBXContainerItemProxy */;
+		};
+		5E5A47881E805B99001D422B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5A47661E805B99001D422B /* Cardiac */;
+			targetProxy = 5E5A47871E805B99001D422B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E5A476E1E805B99001D422B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5A476F1E805B99001D422B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E5A47731E805B99001D422B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5A47741E805B99001D422B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E5A478D1E805B99001D422B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E5A478E1E805B99001D422B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5A47901E805B99001D422B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C77MWZ97U4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Cardiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eileen.Cardiac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cardiac/EmpaticaAPIDemo_iOS-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5E5A47911E805B99001D422B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C77MWZ97U4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Cardiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eileen.Cardiac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cardiac/EmpaticaAPIDemo_iOS-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		5E5A47931E805B99001D422B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardiacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.CardiacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardiac.app/Cardiac";
+			};
+			name = Debug;
+		};
+		5E5A47941E805B99001D422B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardiacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.CardiacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardiac.app/Cardiac";
+			};
+			name = Release;
+		};
+		5E5A47961E805B99001D422B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CardiacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.CardiacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Cardiac;
+			};
+			name = Debug;
+		};
+		5E5A47971E805B99001D422B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CardiacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.CardiacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Cardiac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5A47621E805B99001D422B /* Build configuration list for PBXProject "Cardiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A478D1E805B99001D422B /* Debug */,
+				5E5A478E1E805B99001D422B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A478F1E805B99001D422B /* Build configuration list for PBXNativeTarget "Cardiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A47901E805B99001D422B /* Debug */,
+				5E5A47911E805B99001D422B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A47921E805B99001D422B /* Build configuration list for PBXNativeTarget "CardiacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A47931E805B99001D422B /* Debug */,
+				5E5A47941E805B99001D422B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A47951E805B99001D422B /* Build configuration list for PBXNativeTarget "CardiacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A47961E805B99001D422B /* Debug */,
+				5E5A47971E805B99001D422B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5A475F1E805B99001D422B /* Project object */;
+}
