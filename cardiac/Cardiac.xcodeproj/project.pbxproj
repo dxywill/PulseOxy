@@ -25,6 +25,11 @@
 		5EE2B8241E8C1F6F0022CFDF /* DirectoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2B8231E8C1F6F0022CFDF /* DirectoryModel.swift */; };
 		5EF97C431EB395CA00B3E784 /* BioHarnessDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */; };
 		7B6036221E97F5EB002D8B0D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6036211E97F5EB002D8B0D /* VideoViewController.swift */; };
+		AEB0588F1FA778F400A2CD31 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB0588E1FA778F400A2CD31 /* opencv2.framework */; };
+		AEF7A6771FA777C500896120 /* OpenCVBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEF7A6731FA777C500896120 /* OpenCVBridge.mm */; };
+		AEF7A6781FA777C500896120 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEF7A6741FA777C500896120 /* README.md */; };
+		AEF7A6791FA777C500896120 /* VideoAnalgesic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7A6751FA777C500896120 /* VideoAnalgesic.swift */; };
+		AEF7A67C1FA7788300896120 /* OpenCVBridgeSub.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEF7A67B1FA7788300896120 /* OpenCVBridgeSub.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,16 @@
 		5EE2B8231E8C1F6F0022CFDF /* DirectoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryModel.swift; sourceTree = "<group>"; };
 		5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioHarnessDevice.swift; sourceTree = "<group>"; };
 		7B6036211E97F5EB002D8B0D /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		AEB0588E1FA778F400A2CD31 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		AEB058901FA7795900A2CD31 /* ImageLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageLab-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEB058911FA7796500A2CD31 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AEF7A6701FA777C500896120 /* CoreImageOpenCVExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreImageOpenCVExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEF7A6721FA777C500896120 /* OpenCVBridge.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OpenCVBridge.hh; sourceTree = "<group>"; };
+		AEF7A6731FA777C500896120 /* OpenCVBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVBridge.mm; sourceTree = "<group>"; };
+		AEF7A6741FA777C500896120 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AEF7A6751FA777C500896120 /* VideoAnalgesic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoAnalgesic.swift; sourceTree = "<group>"; };
+		AEF7A67A1FA7787C00896120 /* OpenCVBridgeSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVBridgeSub.h; sourceTree = "<group>"; };
+		AEF7A67B1FA7788300896120 /* OpenCVBridgeSub.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVBridgeSub.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB0588F1FA778F400A2CD31 /* opencv2.framework in Frameworks */,
 				5ED7D9F21EB3A2E00044797F /* EmpaLink-ios-0.7-full.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +117,7 @@
 		5E5A475E1E805B99001D422B = {
 			isa = PBXGroup;
 			children = (
+				AEF7A66F1FA777C500896120 /* ImageDSPUtils */,
 				5E5A47691E805B99001D422B /* Cardiac */,
 				5E5A477E1E805B99001D422B /* CardiacTests */,
 				5E5A47891E805B99001D422B /* CardiacUITests */,
@@ -161,6 +178,7 @@
 		5ED7D9F01EB3A2C30044797F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEB0588E1FA778F400A2CD31 /* opencv2.framework */,
 				5ED7D9F11EB3A2E00044797F /* EmpaLink-ios-0.7-full.framework */,
 			);
 			name = Frameworks;
@@ -184,6 +202,22 @@
 				5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */,
 			);
 			name = BioHarness;
+			sourceTree = "<group>";
+		};
+		AEF7A66F1FA777C500896120 /* ImageDSPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				AEB058911FA7796500A2CD31 /* PrefixHeader.pch */,
+				AEB058901FA7795900A2CD31 /* ImageLab-Bridging-Header.h */,
+				AEF7A67B1FA7788300896120 /* OpenCVBridgeSub.mm */,
+				AEF7A67A1FA7787C00896120 /* OpenCVBridgeSub.h */,
+				AEF7A6701FA777C500896120 /* CoreImageOpenCVExample-Bridging-Header.h */,
+				AEF7A6721FA777C500896120 /* OpenCVBridge.hh */,
+				AEF7A6731FA777C500896120 /* OpenCVBridge.mm */,
+				AEF7A6741FA777C500896120 /* README.md */,
+				AEF7A6751FA777C500896120 /* VideoAnalgesic.swift */,
+			);
+			path = ImageDSPUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +333,7 @@
 			files = (
 				5E5A47751E805B99001D422B /* LaunchScreen.storyboard in Resources */,
 				5E5A47721E805B99001D422B /* Assets.xcassets in Resources */,
+				AEF7A6781FA777C500896120 /* README.md in Resources */,
 				5E5A47701E805B99001D422B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,15 +360,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED3FB211E97DD2600E39132 /* TrialEndViewController.swift in Sources */,
+				AEF7A6791FA777C500896120 /* VideoAnalgesic.swift in Sources */,
 				7B6036221E97F5EB002D8B0D /* VideoViewController.swift in Sources */,
 				5EACF2F01EAAC79800A6C101 /* BioHarness.swift in Sources */,
 				5ED7D9F61EB3A2FF0044797F /* E4.swift in Sources */,
 				5ECC83641E81C40B009C2A3E /* StartStudyViewController.swift in Sources */,
+				AEF7A67C1FA7788300896120 /* OpenCVBridgeSub.mm in Sources */,
 				5ED7D9F71EB3A2FF0044797F /* E4Controller.swift in Sources */,
 				5EE2B8241E8C1F6F0022CFDF /* DirectoryModel.swift in Sources */,
 				5E06D4B71EA6BC3400DF182B /* ConnectViewController.swift in Sources */,
 				5E5A476D1E805B99001D422B /* ViewController.swift in Sources */,
 				5E06D4B91EA6CABD00DF182B /* ConnectivityManager.swift in Sources */,
+				AEF7A6771FA777C500896120 /* OpenCVBridge.mm in Sources */,
 				5E5A476B1E805B99001D422B /* AppDelegate.swift in Sources */,
 				5EF97C431EB395CA00B3E784 /* BioHarnessDevice.swift in Sources */,
 			);
@@ -490,6 +528,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ImageDSPUtils",
 				);
 				INFOPLIST_FILE = Cardiac/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -511,6 +550,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ImageDSPUtils",
 				);
 				INFOPLIST_FILE = Cardiac/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
