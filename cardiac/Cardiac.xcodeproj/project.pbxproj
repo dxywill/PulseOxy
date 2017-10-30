@@ -26,6 +26,7 @@
 		5EF97C431EB395CA00B3E784 /* BioHarnessDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */; };
 		7B6036221E97F5EB002D8B0D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6036211E97F5EB002D8B0D /* VideoViewController.swift */; };
 		AEB0588F1FA778F400A2CD31 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB0588E1FA778F400A2CD31 /* opencv2.framework */; };
+		AEB058931FA7BEB400A2CD31 /* PulseOximeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB058921FA7BEB400A2CD31 /* PulseOximeterViewController.swift */; };
 		AEF7A6771FA777C500896120 /* OpenCVBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEF7A6731FA777C500896120 /* OpenCVBridge.mm */; };
 		AEF7A6781FA777C500896120 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEF7A6741FA777C500896120 /* README.md */; };
 		AEF7A6791FA777C500896120 /* VideoAnalgesic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7A6751FA777C500896120 /* VideoAnalgesic.swift */; };
@@ -76,9 +77,8 @@
 		5EF97C421EB395CA00B3E784 /* BioHarnessDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioHarnessDevice.swift; sourceTree = "<group>"; };
 		7B6036211E97F5EB002D8B0D /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		AEB0588E1FA778F400A2CD31 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
-		AEB058901FA7795900A2CD31 /* ImageLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageLab-Bridging-Header.h"; sourceTree = "<group>"; };
 		AEB058911FA7796500A2CD31 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		AEF7A6701FA777C500896120 /* CoreImageOpenCVExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreImageOpenCVExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEB058921FA7BEB400A2CD31 /* PulseOximeterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseOximeterViewController.swift; sourceTree = "<group>"; };
 		AEF7A6721FA777C500896120 /* OpenCVBridge.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OpenCVBridge.hh; sourceTree = "<group>"; };
 		AEF7A6731FA777C500896120 /* OpenCVBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVBridge.mm; sourceTree = "<group>"; };
 		AEF7A6741FA777C500896120 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -142,6 +142,7 @@
 				5ED7D9F81EB3A3840044797F /* E4 */,
 				5E5A476A1E805B99001D422B /* AppDelegate.swift */,
 				5E5A476C1E805B99001D422B /* ViewController.swift */,
+				AEB058921FA7BEB400A2CD31 /* PulseOximeterViewController.swift */,
 				7B6036211E97F5EB002D8B0D /* VideoViewController.swift */,
 				5E5A476E1E805B99001D422B /* Main.storyboard */,
 				5EE2B8231E8C1F6F0022CFDF /* DirectoryModel.swift */,
@@ -208,14 +209,12 @@
 			isa = PBXGroup;
 			children = (
 				AEB058911FA7796500A2CD31 /* PrefixHeader.pch */,
-				AEB058901FA7795900A2CD31 /* ImageLab-Bridging-Header.h */,
 				AEF7A67B1FA7788300896120 /* OpenCVBridgeSub.mm */,
 				AEF7A67A1FA7787C00896120 /* OpenCVBridgeSub.h */,
-				AEF7A6701FA777C500896120 /* CoreImageOpenCVExample-Bridging-Header.h */,
 				AEF7A6721FA777C500896120 /* OpenCVBridge.hh */,
 				AEF7A6731FA777C500896120 /* OpenCVBridge.mm */,
-				AEF7A6741FA777C500896120 /* README.md */,
 				AEF7A6751FA777C500896120 /* VideoAnalgesic.swift */,
+				AEF7A6741FA777C500896120 /* README.md */,
 			);
 			path = ImageDSPUtils;
 			sourceTree = "<group>";
@@ -362,6 +361,7 @@
 				5ED3FB211E97DD2600E39132 /* TrialEndViewController.swift in Sources */,
 				AEF7A6791FA777C500896120 /* VideoAnalgesic.swift in Sources */,
 				7B6036221E97F5EB002D8B0D /* VideoViewController.swift in Sources */,
+				AEB058931FA7BEB400A2CD31 /* PulseOximeterViewController.swift in Sources */,
 				5EACF2F01EAAC79800A6C101 /* BioHarness.swift in Sources */,
 				5ED7D9F61EB3A2FF0044797F /* E4.swift in Sources */,
 				5ECC83641E81C40B009C2A3E /* StartStudyViewController.swift in Sources */,

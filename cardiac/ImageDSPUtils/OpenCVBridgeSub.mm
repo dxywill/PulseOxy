@@ -94,30 +94,5 @@ using namespace cv;
     //20fps*60sec/avgdist
     return 20*60/avgDistance;
 }
-
-//-(bool) isPeak:(float*)magBuffer index:(int)index{
-//    int min = 0;
-//    int max = 199;
-//    int window = 10;
-//    float threshhold = 245.0;
-//    if(index-window>min){
-//        min = index-window;
-//    }
-//    if(index+window<max){
-//        max = index+window;
-//    }
-//
-//    int maxIndex = min;
-//    float maxValue = magBuffer[maxIndex];
-//
-//    for(int x = min;x<=max;++x){
-//        if(magBuffer[x]>=maxValue && magBuffer[x]>threshhold){
-//            maxIndex = x;
-//            maxValue = magBuffer[x];
-//        }
-//    }
-//    return (maxIndex==index);
-//
-//}
 @end
 

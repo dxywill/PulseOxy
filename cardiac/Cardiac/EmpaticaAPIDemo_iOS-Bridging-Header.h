@@ -3,3 +3,4 @@
 //
 
 #import <EmpaLink-ios-0.7-full/EmpaticaAPI-0.7.h>
+#import "OpenCVBridgeSub.h"
